@@ -1,10 +1,11 @@
-package leetcode;
+package leetcode.string;
 
+import leetcode.string.medium.lengthOfLongestSubstringMedium;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class TestEffectiveJava {
+public class TestStringMedium {
     public static long concurrentTime1, concurrentTime2, concurrentMemory1, concurrentMemory2;
     @Before
     public void before() {
@@ -33,9 +34,9 @@ public class TestEffectiveJava {
     }
 
     @Test
-    public void testT() {
-        System.out.println("gogo");
-
+    public void lengthOfLongestSubstringMediumTest() {
+        int i = lengthOfLongestSubstringMedium.lengthOfLongestSubstring2("bbbbb");
+        System.out.println(i);
     }
 }
 
